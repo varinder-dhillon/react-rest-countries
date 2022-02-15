@@ -1,0 +1,27 @@
+.main-header{
+    padding:20px 0px;
+    background-color:var(--element-bg);
+    box-shadow: 0 0 20px #0000001c;
+    transition: all ease-in-out 0.3s;
+}
+.header-left-logo{
+    transition: all ease-in-out 0.3s;
+    color: var(--text-color);
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-toggler{
+    border: none;
+    background-color:transparent;
+    color: var(--text-color);
+}
+.main-toggler span{
+    display: flex;
+    align-items: center;
+}
+.main-toggler svg{
+    fill: var(--text-color);
+}
