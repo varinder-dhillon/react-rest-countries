@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './Header.module.css'
-import ThemeToggler from "./ThemeToggler";
+import ThemeToggler from "../ui/toggler/ThemeToggler";
 function Header () {
     return (
         <header className={classes['main-header']}>
@@ -10,7 +10,7 @@ function Header () {
                         <h2>Where in the world?</h2>
                     </div>
                     <div className={classes['header-right-theme-toggle']}>
-                        <ThemeToggler classes={classes}></ThemeToggler>
+                        <ThemeToggler></ThemeToggler>
                     </div>
                 </div>
             </div>

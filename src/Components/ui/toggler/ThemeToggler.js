@@ -1,14 +1,14 @@
 import React , { useState , useEffect } from "react";
+import classes from './ThemeToggler.module.css'
 
-
-function ThemeToggler ( {classes} ) {
+function ThemeToggler () {
     const [theme , setTheme] = useState(false);
 
     useEffect(()=>{
         document.documentElement.setAttribute('data-theme', `${theme ? 'light' : "dark"}`)
     },[theme])
     const themeChangerHandler = () => {
-        setTheme( (prev) => !prev )
+        setTheme( (prev) => ( !prev ))
       }
     return (
             <button onClick={themeChangerHandler} className={classes["main-toggler"]}>

@@ -1,0 +1,15 @@
+.main-header{
+    padding:20px 0px;
+    background-color:var(--element-bg);
+    box-shadow: 0 0 20px #0000001c;
+    transition: var(--transition);
+}
+.header-left-logo{
+    transition: var(--transition);
+    color: var(--text-color);
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   

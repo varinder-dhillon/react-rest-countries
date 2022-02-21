@@ -1,11 +1,13 @@
 import './App.css';
-import Header from './Components/Header';
-
-
+import Header from './Components/sections/Header';
+import SubHeader from './Components/sections/SubHeader';
+import CountryCard from './Components/sections/CountryList';
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <SubHeader></SubHeader>
+      <CountryList />
     </div>
   );
 }

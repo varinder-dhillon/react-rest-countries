@@ -1,0 +1,14 @@
+.main-toggler{
+    border: none;
+    background-color:transparent;
+    color: var(--text-color);
+}
+.main-toggler span{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-toggler svg{
+    fill: var(--text-color);
+}

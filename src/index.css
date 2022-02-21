@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
 
+html{
+  --box-shadow: 0 0 20px #0000001c;
+  --transition: all ease-in-out 0.3s;
+}
 html[data-theme="dark"]{
   --element-bg : hsl(209, 23%, 22%);      /* (Dark Mode Elements) */
   --main-bg: hsl(207, 26%, 17%);          /* (Dark Mode Background) */
@@ -19,7 +23,7 @@ html[data-theme="light"]{
 }
 
 body{
-  transition: all ease-in-out 0.3s;
+  transition: var(--transition);
   background-color:var(--main-bg)
 }
 
